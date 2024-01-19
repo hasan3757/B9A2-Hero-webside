@@ -77,11 +77,39 @@ nav li a{
 .banner img{
     width: 100%;
 }
+/*main styles*/
+main .team-title{
+    padding-top: 160px;
+    padding-left: 170px;
+}
+.team-description{
+    padding-left: 170px;
+}
+/*teams styles*/
+.teams{
+    display: flex;
+}
+.team-img{
+    padding-top: 180px;
+    padding-left: 55px;
+}
+.ul{
+    padding-left: 200px;
+}
+.btn-5{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #FFF;
+    background: #FF5400;
+}
+
 
 /*responsive mobile styles*/
 @media screen and (max-width: 576px) {
    header{
-    padding: 20px;
+    padding: 1px;
     max-width: 335px;
    }
    nav {
