@@ -79,11 +79,15 @@ nav li a{
 }
 /*main styles*/
 main .team-title{
-    padding-top: 160px;
+    padding-top: 200px;
     padding-left: 170px;
 }
 .team-description{
     padding-left: 170px;
+}
+.team-more-discription{
+    padding-left: 170px;
+    padding-bottom: 35px;
 }
 /*teams styles*/
 .teams{
@@ -92,9 +96,13 @@ main .team-title{
 .team-img{
     padding-top: 180px;
     padding-left: 55px;
+    width: 540px;
+    height: 550px;
 }
 .ul{
     padding-left: 200px;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 .btn-5{
     width: 174px;
@@ -103,10 +111,47 @@ main .team-title{
     font-size: 20px;
     color: #FFF;
     background: #FF5400;
+    margin-left: 170px;
 }
 
+/*facts style*/
+.span-1{
+    padding-left: 50px;
+}
+.facts-1{
+    text-align: center;
+    padding-top: 50px;
+}
+.facts-0{
+    display: flex;
+    padding-top: 48px;
+    padding-left: 250px;
+    gap: 50px;
+}
+.facts-0 .card{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.facts-0 .card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.facts-01 .card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.facts-01{
+    width: 500px;
+    height: 284px;
+    padding-left: 500px;
+    padding-top: 25px;
+}
 
 /*responsive mobile styles*/
+/*header*/
 @media screen and (max-width: 576px) {
    header{
     padding: 1px;
@@ -123,4 +168,19 @@ main .team-title{
     height: 24px;
     padding-left: 10px;
    }
+/*main*/
+   .teams{
+    flex-direction: column;
+   }
+   .team-content{
+    margin-left: -150px;
+   }
+   main .team-title{
+    padding-top: 30px;
+   }
+   .team-img{
+    padding-top: 50px;
+    padding-left: 5px;
+   }
 }
+
