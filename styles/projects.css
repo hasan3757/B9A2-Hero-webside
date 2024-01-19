@@ -179,6 +179,40 @@ main .team-title{
     gap: 24px;
 }
 
+/*footer style*/
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+    height: 500px;
+}
+.last-1{
+    display: flex;
+    gap: 10px;
+    padding-left: 550px;
+    padding-top: 50px;
+}
+.last-1 .nav-img{
+    width: 40px;
+    height: 46.673px;
+    padding-top: 34px;
+}
+.last-1 .span-3{
+    color: #FF5400;
+}
+.last-2{
+    padding-left: 350px;
+    padding-bottom: 30px;
+}
+.last-2 .span-4{
+    padding-left: 150px;
+}
+.last-3{
+    padding-left: 600px;
+    padding-top: 32xp;
+}
+
+
+
 /*responsive mobile styles*/
 /*header*/
 @media screen and (max-width: 576px) {
@@ -238,6 +272,19 @@ main .team-title{
    .img-section-3{
     flex-direction: column;
     padding-left: 0;
+   }
+   /*footer*/
+   .last-1{
+    padding-left: 0;
+   }
+   .last-2{
+    padding-left: 0;   
+   }
+   .last-2 .span-4{
+    padding-left: 0;
+   }
+   .last-3{
+    padding-left: 100px;
    }
 }
 
